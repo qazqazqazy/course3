@@ -14,7 +14,7 @@
 !/src/main/modules/module2/build/module2.jar
 
 #application-local.properties
-/src/resurces/application-local.properties
+/src/main/resurces/application-local.properties
 
 #.idea полностью
  # .idea_copy кроме файла workspace.xml
