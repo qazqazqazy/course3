@@ -1,0 +1,23 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Всё, что будет появляться в каталоге build — артефакты сборки проекта не нужны нам в репозитории
+**/build/
+# Все jar-файлы, кроме module2.jar
+*.jar
+!/src/main/modules/module2/build/module2.jar
+
+#application-local.properties
+/src/resurces/application-local.properties
+
+#.idea полностью
+ # .idea_copy кроме файла workspace.xml
+/.idea/
+/.idea.copy/
+!/.idea.copy/workspace.xml
